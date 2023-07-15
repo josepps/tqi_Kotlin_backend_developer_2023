@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:backend_jumarket_db
+    username: pedro
+    password: 1234
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      settings:
+        trace: false
+        web-allow-others: false
