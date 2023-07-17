@@ -6,7 +6,6 @@ interface ICartService {
     fun getCartItems(): List<CartItem>
     fun getTotalPrice(): Double
     fun finalizeSale(paymentMethod: PaymentMethod): Double
-    fun getAvailablePaymentMethods(): List<PaymentMethod>
 }
 
 data class CartItem(
